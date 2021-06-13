@@ -22,18 +22,18 @@
                             <constraint firstAttribute="width" constant="36" id="6GX-JU-wZo"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="jEe-gz-1Ee">
-                        <rect key="frame" x="64" y="25" width="368" height="21"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jEe-gz-1Ee">
+                        <rect key="frame" x="64" y="25" width="401" height="21"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le8-BO-atp">
-                                <rect key="frame" x="0.0" y="0.0" width="169" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le8-BO-atp">
+                                <rect key="frame" x="0.0" y="0.5" width="200.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaU-0j-RNV">
-                                <rect key="frame" x="199" y="0.0" width="169" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BaU-0j-RNV">
+                                <rect key="frame" x="200.5" y="1.5" width="200.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -44,7 +44,7 @@
                     <constraint firstItem="jEe-gz-1Ee" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="KPI-f0-gGr"/>
                     <constraint firstAttribute="bottom" secondItem="jEe-gz-1Ee" secondAttribute="bottom" constant="25" id="QsR-hJ-WRA"/>
                     <constraint firstItem="0gb-YI-LFU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="TiJ-uA-4GR"/>
-                    <constraint firstAttribute="trailing" secondItem="jEe-gz-1Ee" secondAttribute="trailing" constant="43" id="U3y-5k-fzB"/>
+                    <constraint firstAttribute="trailing" secondItem="jEe-gz-1Ee" secondAttribute="trailing" constant="10" id="U3y-5k-fzB"/>
                     <constraint firstItem="0gb-YI-LFU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="gBz-jg-V5T"/>
                     <constraint firstItem="jEe-gz-1Ee" firstAttribute="leading" secondItem="0gb-YI-LFU" secondAttribute="trailing" constant="8" id="siR-Lg-s5d"/>
                     <constraint firstAttribute="bottom" secondItem="0gb-YI-LFU" secondAttribute="bottom" constant="17" id="w9q-if-V54"/>

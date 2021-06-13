@@ -36,6 +36,7 @@
 		6EBECC5326710B3600512153 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBECC5226710B3600512153 /* Country.swift */; };
 		6EBECC59267111DE00512153 /* CountryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBECC58267111DE00512153 /* CountryInfo.swift */; };
 		6EBECC5C26712C1600512153 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBECC5B26712C1600512153 /* Extensions.swift */; };
+		6ECE1DDE267692DC00CC0B02 /* readMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECE1DDD267692DC00CC0B02 /* readMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		6EBECC5226710B3600512153 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		6EBECC58267111DE00512153 /* CountryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryInfo.swift; sourceTree = "<group>"; };
 		6EBECC5B26712C1600512153 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6ECE1DDD267692DC00CC0B02 /* readMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 				6EBECC5D26714CE000512153 /* DetailScreen */,
 				6EBECC432670FD4000512153 /* CountriesList */,
 				6E3F18C52674F864005CB14C /* DataBaseManager.swift */,
+				6ECE1DDD267692DC00CC0B02 /* readMe.swift */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 				6EBECC4E26710AAB00512153 /* ApiServiceImpl.swift in Sources */,
 				6E3F18C62674F864005CB14C /* DataBaseManager.swift in Sources */,
 				6E3F18C32674F5A4005CB14C /* CountryInfoEntity+CoreDataClass.swift in Sources */,
+				6ECE1DDE267692DC00CC0B02 /* readMe.swift in Sources */,
 				6E3F18C12674F5A4005CB14C /* CountryEntity+CoreDataClass.swift in Sources */,
 				6E5D19CD2672357500851C22 /* ImageCollectionViewCell.swift in Sources */,
 				6EBECC5C26712C1600512153 /* Extensions.swift in Sources */,

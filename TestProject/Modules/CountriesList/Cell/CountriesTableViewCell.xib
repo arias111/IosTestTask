@@ -23,18 +23,18 @@
                             <constraint firstAttribute="height" constant="50" id="Yql-5J-35m"/>
                         </constraints>
                     </imageView>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vSn-N3-v08">
-                        <rect key="frame" x="97" y="13" width="273" height="46"/>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vSn-N3-v08">
+                        <rect key="frame" x="91" y="13" width="309" height="48"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLU-VN-huY">
-                                <rect key="frame" x="0.0" y="0.0" width="273" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLU-VN-huY">
+                                <rect key="frame" x="0.0" y="0.0" width="309" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j8W-eY-ueY">
-                                <rect key="frame" x="0.0" y="25.5" width="273" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="0.0" y="26.5" width="309" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -64,9 +64,9 @@
                     <constraint firstItem="EJi-Uh-27s" firstAttribute="leading" secondItem="ouh-Cv-bdM" secondAttribute="leading" id="e9C-R2-fal"/>
                     <constraint firstItem="MSu-4o-uD7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="fl2-cN-DMT"/>
                     <constraint firstAttribute="trailing" secondItem="MSu-4o-uD7" secondAttribute="trailing" constant="17" id="n2D-g5-lxz"/>
-                    <constraint firstItem="MSu-4o-uD7" firstAttribute="leading" secondItem="vSn-N3-v08" secondAttribute="trailing" constant="40" id="qxg-w9-NRx"/>
+                    <constraint firstItem="MSu-4o-uD7" firstAttribute="leading" secondItem="vSn-N3-v08" secondAttribute="trailing" constant="10" id="qxg-w9-NRx"/>
                     <constraint firstItem="ouh-Cv-bdM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="whf-kk-LU3"/>
-                    <constraint firstItem="vSn-N3-v08" firstAttribute="leading" secondItem="ouh-Cv-bdM" secondAttribute="trailing" constant="21" id="y67-uk-WgS"/>
+                    <constraint firstItem="vSn-N3-v08" firstAttribute="leading" secondItem="ouh-Cv-bdM" secondAttribute="trailing" constant="15" id="y67-uk-WgS"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>

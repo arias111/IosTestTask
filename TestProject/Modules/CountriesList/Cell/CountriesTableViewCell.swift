@@ -18,6 +18,8 @@ class CountriesTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        countryNameLabel.adjustsFontSizeToFitWidth = true
+        countryCapitalLabel.adjustsFontSizeToFitWidth = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

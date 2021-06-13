@@ -80,41 +80,7 @@ class DetailViewController: UIViewController {
                 break
         }
     }
-    // Дополнительный вариант проверки так как мог не правильно понять задачу
-    /*
-        // Проверяем пустой ли массив
-        // если нет то достаем картинку из image
-        // если и там нет то берем флаг страны
-     
-        private func isImagesPresent() -> Int {
-            
-            if country?.countryInfo?.images.count != 0 {
-                
-                for i in (country?.countryInfo?.images)! {
-                    if i.isValidURL {
-                        urls.append(URL(string: i)!)
-                    }
-                }
-                pageControl.numberOfPages = urls.count
-                return urls.count
-                
-            }
-            else if country?.image?.count != 0 {
-                if (country?.image?.isValidURL)! {
-                    pageControl.numberOfPages = 1
-                    urls.append(URL(string: (country?.image)!)!)
-                    return 1
-                }
-                return 0
-            }
-            else {
-                urls.append(URL(string: (country?.countryInfo?.flag)!)!)
-                pageControl.numberOfPages = 1
-                return 1
-            }
-        }
-    }
-*/
+    
     // Проверка есть ли картинка в массиве, если нет отображаем флаг страны
     func isImagesPresent() -> Int {
         if country?.countryInfo?.images.count != 0 {
@@ -206,7 +172,7 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource {
         view.tintColor = UIColor.clear
         guard let header = view as? UITableViewHeaderFooterView else { return }
         header.textLabel?.textColor = UIColor.black
-        header.textLabel?.font = UIFont.boldSystemFont(ofSize: 20)
+        header.textLabel?.font = UIFont.boldSystemFont(ofSize: 18)
         header.textLabel?.frame = header.frame
     }
     
