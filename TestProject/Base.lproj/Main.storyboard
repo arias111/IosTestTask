@@ -67,6 +67,7 @@
                             </collectionView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="2" translatesAutoresizingMaskIntoConstraints="NO" id="eGu-VO-dc0">
                                 <rect key="frame" x="156" y="285" width="102.5" height="28"/>
+                                <color key="currentPageIndicatorTintColor" systemColor="labelColor"/>
                             </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="LIR-Vm-8YH"/>
@@ -115,6 +116,9 @@
         </scene>
     </scenes>
     <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

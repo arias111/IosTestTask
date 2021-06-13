@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 struct CountryInfo: Codable {
     let images: [String]
     let flag: String?

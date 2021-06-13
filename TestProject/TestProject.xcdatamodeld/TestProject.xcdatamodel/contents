@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CountryEntity" representedClassName="CountryEntity" syncable="YES">
+        <attribute name="capital" optional="YES" attributeType="String"/>
+        <attribute name="continent" optional="YES" attributeType="String"/>
+        <attribute name="descriptions" optional="YES" attributeType="String"/>
+        <attribute name="descriptionSmall" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="population" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="countries" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CountryModelEntity" inverseName="countries" inverseEntity="CountryModelEntity"/>
+        <relationship name="countryInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CountryInfoEntity" inverseName="countryInfo" inverseEntity="CountryInfoEntity"/>
+    </entity>
+    <entity name="CountryInfoEntity" representedClassName="CountryInfoEntity" syncable="YES">
+        <attribute name="flag" optional="YES" attributeType="String"/>
+        <attribute name="images" optional="YES" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <relationship name="countryInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CountryEntity" inverseName="countryInfo" inverseEntity="CountryEntity"/>
+    </entity>
+    <entity name="CountryModelEntity" representedClassName=".CountryModelEntity" syncable="YES">
+        <attribute name="next" optional="YES" attributeType="String"/>
+        <relationship name="countries" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CountryEntity" inverseName="countries" inverseEntity="CountryEntity"/>
+    </entity>
+    <elements>
+        <element name="CountryModelEntity" positionX="-386.35546875" positionY="-260.3046875" width="128" height="73"/>
+        <element name="CountryEntity" positionX="-151.05859375" positionY="-350.4296875" width="128" height="178"/>
+        <element name="CountryInfoEntity" positionX="75.4921875" positionY="-260.34765625" width="128" height="88"/>
+    </elements>
+</model>

@@ -8,6 +8,7 @@
 import UIKit
 
 class CountryTableViewCell: UITableViewCell {
+    
     static let identifier = "cell"
     @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var infoLabel: UILabel!
